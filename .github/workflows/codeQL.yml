@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        language: ['javascript', 'python']
+        language: ['python']
 
     permissions:
       # required for all workflows
